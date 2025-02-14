@@ -370,7 +370,9 @@
 
 .about__image {
   width: 703px;
-  /* add styles */
+  position: absolute;
+  left: -271px;
+  top: -82.5px;
 }
 
 .footer {
