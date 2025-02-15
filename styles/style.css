@@ -1,5 +1,4 @@
 .page {
-  /* Add page class properties here */
   min-width: 1300px;
   max-width: 1600px;
   margin: 0 auto;
@@ -68,7 +67,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
   margin-bottom: 128px;
@@ -80,7 +78,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
@@ -89,7 +86,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
 }
@@ -240,16 +237,18 @@
 }
 
 .staff {
-  padding: 100px 0 140px;
+  padding: 140px 0 140px;
   background-image: url("../images/staff_picks_background.jpg");
+  background-size: 100%;
+  background-position: bottom;
 }
 
 .staff__title {
   text-align: center;
-  font-size: 44px;
+  font-size: 50px;
   color: #fff;
   line-height: 52px;
-  margin: 0 0 24px;
+  margin: 0 0 50px;
   font-weight: 500;
 }
 
@@ -268,7 +267,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 40px 40px;
+  gap: 40px;
   list-style-type: none;
   padding-left: 0;
   justify-content: center;
@@ -387,6 +386,14 @@
   top: -82.5px;
 }
 
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin: 0;
+}
+
 .footer {
   box-sizing: border-box;
   padding: 60px 80px;
@@ -422,7 +429,7 @@
 }
 
 .footer__list-item:last-of-type {
-  margin: 0px;
+  margin: 0;
 }
 
 .footer__column-heading {
